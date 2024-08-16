@@ -47,8 +47,25 @@
 
 .btn-try {
   width: 250px !important;
+}
+
+.signup-btn {
+  margin-top: 10px;
   color: #000000 !important;
   border: 3px solid #ef8094 !important;
+}
+
+.content-first {
+  margin-top: 20px;
+  width: 430px;
+  text-align: left;
+  font-size: 3rem;
+}
+
+.content-sec {
+  margin-top: 20px !important;
+  text-align: left;
+  width: 400px;
 }
 
 @media only screen and (max-width: 600px) {

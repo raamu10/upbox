@@ -15,21 +15,30 @@ const ContentComponent = () => {
     <Container fixed style={{ marginTop: "10px", alignContent: "center" }}>
       <div style={{ bgcolor: "#ffffff" }}>
         <Grid container>
-          <Grid item xs={12} sm={6} style={{ alignContent: "center" }}>
-            <Typography component="div" variant="h4" sx={{ flexGrow: 6 }}>
+          <Grid item xs={12} sm={6} style={{ alignContent: "left" }}>
+            <Typography
+              component="div"
+              variant="h4"
+              className="content-first"
+              sx={{ flexGrow: 6 }}
+            >
               Look good without leaving your house.
             </Typography>
-            <Typography component="div" variant="h7" sx={{ flexGrow: 6 }}>
+            <Typography
+              component="div"
+              variant="h7"
+              className="content-sec"
+              sx={{ flexGrow: 6 }}
+            >
               Upbox is the easiest way to look your best without having to hunt
               for the perfect makeup combination. Our stylists curate the latest
               trends and send them directly to your door every month
             </Typography>
-
-            <Button variant="outlined" className="default-btn">
+            <Button variant="outlined" className="default-btn signup-btn">
               Sign Up
             </Button>
           </Grid>
-          <Grid item xs={12} sm={6}>
+          <Grid item xs={12} sm={6} sx={{ marginTop: "10px" }}>
             <img className="image" src={box} alt="" />
           </Grid>
         </Grid>
@@ -39,10 +48,20 @@ const ContentComponent = () => {
             <img className="image" src={work1} alt="" />
           </Grid>
           <Grid item xs={12} sm={6} style={{ alignContent: "center" }}>
-            <Typography component="div" variant="h4" sx={{ flexGrow: 6 }}>
+            <Typography
+              component="div"
+              variant="h4"
+              className="content-first"
+              sx={{ flexGrow: 6 }}
+            >
               Setup your profile & preferences
             </Typography>
-            <Typography component="div" variant="h7" sx={{ flexGrow: 6 }}>
+            <Typography
+              component="div"
+              variant="h7"
+              className="content-sec"
+              sx={{ flexGrow: 6 }}
+            >
               Once you create your account you can start to tell us your like
               and dislikes so we can tailor the experience just for you.
             </Typography>
@@ -51,10 +70,20 @@ const ContentComponent = () => {
 
         <Grid container>
           <Grid item xs={12} sm={6} style={{ alignContent: "center" }}>
-            <Typography component="div" variant="h4" sx={{ flexGrow: 6 }}>
+            <Typography
+              component="div"
+              variant="h4"
+              className="content-first"
+              sx={{ flexGrow: 6 }}
+            >
               Review your custom box
             </Typography>
-            <Typography component="div" variant="h7" sx={{ flexGrow: 6 }}>
+            <Typography
+              component="div"
+              variant="h7"
+              className="content-sec"
+              sx={{ flexGrow: 6 }}
+            >
               Once we get to know you, we will show you the box we've crafted.
               This is your chance to approve it before we ship it to your house.
             </Typography>
@@ -70,10 +99,20 @@ const ContentComponent = () => {
             <img className="image" src={work3} alt="" />
           </Grid>
           <Grid item xs={12} sm={6} style={{ alignContent: "center" }}>
-            <Typography component="div" variant="h4" sx={{ flexGrow: 6 }}>
+            <Typography
+              component="div"
+              variant="h4"
+              className="content-first"
+              sx={{ flexGrow: 6 }}
+            >
               Try it on at home
             </Typography>
-            <Typography component="div" variant="h7" sx={{ flexGrow: 6 }}>
+            <Typography
+              component="div"
+              variant="h7"
+              className="content-sec"
+              sx={{ flexGrow: 6 }}
+            >
               Your box will arrive within 3-5 days (usually sooner) and you get
               the joy to unbox your Upbox. Try it all on and send back whatever
               you'r not in love with.
