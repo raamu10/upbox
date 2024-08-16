@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/upbox/static/css/main.eaed33d6.css",
-    "main.js": "/upbox/static/js/main.bac4d0c3.js",
+    "main.css": "/upbox/static/css/main.3cbe2717.css",
+    "main.js": "/upbox/static/js/main.a4540872.js",
     "static/js/453.045890fe.chunk.js": "/upbox/static/js/453.045890fe.chunk.js",
     "static/media/box.png": "/upbox/static/media/box.edd3f56bf7c1e3a53784.png",
     "static/media/work1.png": "/upbox/static/media/work1.2b701dbca9bc1b4546e4.png",
@@ -10,12 +10,12 @@
     "static/media/topbar-desktop.png": "/upbox/static/media/topbar-desktop.ee58fb38c78aaa1adeed.png",
     "static/media/logo.svg": "/upbox/static/media/logo.4f7c0767336a52a1b35fd848bbb88f6f.svg",
     "index.html": "/upbox/index.html",
-    "main.eaed33d6.css.map": "/upbox/static/css/main.eaed33d6.css.map",
-    "main.bac4d0c3.js.map": "/upbox/static/js/main.bac4d0c3.js.map",
+    "main.3cbe2717.css.map": "/upbox/static/css/main.3cbe2717.css.map",
+    "main.a4540872.js.map": "/upbox/static/js/main.a4540872.js.map",
     "453.045890fe.chunk.js.map": "/upbox/static/js/453.045890fe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eaed33d6.css",
-    "static/js/main.bac4d0c3.js"
+    "static/css/main.3cbe2717.css",
+    "static/js/main.a4540872.js"
   ]
 }
