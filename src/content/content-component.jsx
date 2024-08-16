@@ -44,7 +44,7 @@ const ContentComponent = () => {
         </Grid>
 
         <Grid container>
-          <Grid item xs={12} sm={6}>
+          <Grid item xs={12} sm={6} sx={{ padding: "5%" }}>
             <img className="image" src={work1} alt="" />
           </Grid>
           <Grid item xs={12} sm={6} style={{ alignContent: "center" }}>
@@ -95,7 +95,7 @@ const ContentComponent = () => {
         </Grid>
 
         <Grid container>
-          <Grid item xs={12} sm={6}>
+          <Grid item xs={12} sm={6} sx={{ padding: "5%" }}>
             <img className="image" src={work3} alt="" />
           </Grid>
           <Grid item xs={12} sm={6} style={{ alignContent: "center" }}>

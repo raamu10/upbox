@@ -47,29 +47,47 @@
 
 .btn-try {
   width: 250px !important;
-}
-
-.signup-btn {
-  margin-top: 10px;
   color: #000000 !important;
   border: 3px solid #ef8094 !important;
 }
 
+.signup-btn {
+  margin-top: 15px !important;
+  color: #000000 !important;
+  border: 3px solid #ef8094 !important;
+  float: left !important;
+}
+
 .content-first {
-  margin-top: 20px;
+  margin-top: 20px !important;
   width: 430px;
   text-align: left;
-  font-size: 3rem;
+  font-size: 3rem !important;
 }
 
 .content-sec {
   margin-top: 20px !important;
   text-align: left;
-  width: 400px;
+  width: 400px !important;
 }
 
 @media only screen and (max-width: 600px) {
   .image-art2 {
     display: none;
+  }
+
+  .content-first {
+    width: 300px !important;
+  }
+
+  .content-sec {
+    width: 300px !important;
+  }
+
+  .icon-style {
+    padding: 0px !important;
+    float: right !important;
+    margin-right: 10px !important;
+    margin-top: 15px !important;
   }
 }

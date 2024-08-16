@@ -11,7 +11,7 @@ const FooterComponent = () => {
   return (
     <Box>
       <Paper sx={{ bottom: 0, left: 0, right: 0 }} elevation={3}>
-        <Grid container spacing={3}>
+        <Grid container spacing={3} sx={{ marginTop: "20px" }}>
           <Grid item xs={6}>
             <img class="footer-logo" src={logo} alt="" />
           </Grid>
