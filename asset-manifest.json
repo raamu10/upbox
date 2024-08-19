@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/upbox/static/css/main.d30c0d19.css",
-    "main.js": "/upbox/static/js/main.22297f1c.js",
+    "main.js": "/upbox/static/js/main.412c6918.js",
     "static/js/453.045890fe.chunk.js": "/upbox/static/js/453.045890fe.chunk.js",
     "static/media/box.png": "/upbox/static/media/box.edd3f56bf7c1e3a53784.png",
     "static/media/work1.png": "/upbox/static/media/work1.2b701dbca9bc1b4546e4.png",
@@ -11,11 +11,11 @@
     "static/media/logo.svg": "/upbox/static/media/logo.4f7c0767336a52a1b35fd848bbb88f6f.svg",
     "index.html": "/upbox/index.html",
     "main.d30c0d19.css.map": "/upbox/static/css/main.d30c0d19.css.map",
-    "main.22297f1c.js.map": "/upbox/static/js/main.22297f1c.js.map",
+    "main.412c6918.js.map": "/upbox/static/js/main.412c6918.js.map",
     "453.045890fe.chunk.js.map": "/upbox/static/js/453.045890fe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d30c0d19.css",
-    "static/js/main.22297f1c.js"
+    "static/js/main.412c6918.js"
   ]
 }
