@@ -68,7 +68,7 @@ const ContentComponent = () => {
           </Grid>
         </Grid>
 
-        <Grid container direction={{ xs: "column-reverse" }}>
+        <Grid container direction={{ xs: "column-reverse", sm: "row" }}>
           <Grid item xs={12} sm={6} style={{ alignContent: "center" }}>
             <Typography
               component="div"
