@@ -1,0 +1,19 @@
+name: Build and Publish to Docker Hub
+
+on:
+  push:
+    branches: ["master"]
+  pull_request:
+    branches: ["master"]
+
+jobs:
+  publish-images:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+      - name: build image
+        run: docker build ./upbox/ -t docker00789/upbox-image:latest
+      - name: push image to docker hub
+        run: |
+          docker build ./upbox/ -t docker00789/upbox-image:latest
