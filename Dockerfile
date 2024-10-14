@@ -1,11 +1,11 @@
-FROM node:18-alphine
+FROM node:18-alpine
 
 WORKDIR /upbox/
 
 COPY package.json /upbox/
 COPY package-lock.json /upbox/
-COPY public /upbox/
-COPY src/ /upbox/
+COPY public /upbox/public/
+COPY src /upbox/src/
 
 WORKDIR /upbox
 
