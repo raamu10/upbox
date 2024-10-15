@@ -1,18 +1,20 @@
 FROM node:18-alpine
 
-WORKDIR /upbox/
+WORKDIR /app
 
-COPY package.json /upbox/
-COPY package-lock.json /upbox/
-COPY public /upbox/public/
-COPY src /upbox/src/
+COPY package*.json ./
+#COPY package-lock.json /upbox/
+#COPY public /upbox/public/
+#COPY src /upbox/src/
 
-WORKDIR /upbox
+#WORKDIR /upbox
+
+COPY . .
 
 RUN npm install
 
 RUN npm run build
 
-EXPOSE 4201
+EXPOSE 3000
 
-CMD [ "npm", 'start' ]
+CMD [ "npm", "start"]
