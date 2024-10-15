@@ -12,4 +12,27 @@ In the project directory, you can run:
 
 1. npm install
 2. npm run start
-3.
+
+# Docker commands
+
+# list docker images
+
+1. docker images
+
+# docker build image
+
+2. docker build -t upbox-web .
+
+# docker container create with port from image
+
+# -d - detach
+
+# --name - container name
+
+3. docker run -d --name upbox-container -p 4201:4201 upbox-web
+
+# docker container running
+
+4. docker ps
+5. docker stop {docker_container_id}
+6. docker start {docker_container_name}
